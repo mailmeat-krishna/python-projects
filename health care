@@ -1,0 +1,19 @@
+age=input("Enter your age:")
+height=input("Enter your height:")
+weight=input("Enter your weight:")
+BMI=int(weight)/(float(height)*float(height))
+
+if (BMI<18):
+    print("Your BMI is", BMI)
+    print("Your are Underweight.")
+elif (BMI>18 and BMI<27):
+    print("Your BMI is", BMI)
+    print("Your are having ideal BMI.")
+elif (BMI>=27):
+    print("Your BMI is", BMI)
+    print("Your are Overweight.")
+
+health_problem=input("Any health issues you are currently facing?\n")   
+health_problem.split(",")    
+if (health_problem)
+
