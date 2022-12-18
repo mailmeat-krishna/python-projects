@@ -15,5 +15,28 @@ elif (BMI>=27):
 
 health_problem=input("Any health issues you are currently facing?\n")   
 health_problem.split(",")    
-if (health_problem)
+#print(health_problem.find("bp"))
+if(health_problem.find("bp")==0 or health_problem.find("sugar")==0 or health_problem.find("sugar")==0):
+    print("You need to immediately consult the doctor!")
+    print("Following doctors are in your vicinity: Dr.Sanghvi, Dr.Lahoti, Dr.Marothi, Dr.Kothari")
+    temp=input("Would like to consult any?")
+    if (temp=="yes"):
+        doctor=input("Doctor you want to meet")
+        if (doctor=="pramod" or doctor=="Dr.Sanghvi" or doctor=="Dr.pramod" or doctor=="sanghvi"):
+            print("When would you like to schedule apartment?\n")
+            print("Choose the time of appointment\n")
+            print("Appointment Slots:\n")
+            print("11am\n12noon\n1pm\n3pm\n4pm\n6pm\n7pm\n8pm\n")
+            time=input("Choosed slot : ")
+            
+
+    
+  
+
+
+
+
+
+    
+
 
